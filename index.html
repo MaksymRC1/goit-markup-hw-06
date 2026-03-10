@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework-5</title>
+    <title>Homework-6</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,6 +26,11 @@
           <a class="logo" href="./index.html"
             ><span class="logo-accent">Web</span>Studio</a
           >
+          <button class="burger-btn" type="button">
+            <svg class="burger-icn" width="24" height="24">
+              <use href="./images/icons.svg#burger-menu"></use>
+            </svg>
+          </button>
           <ul class="nav-list">
             <li><a class="nav-link studio" href="#">Studio</a></li>
             <li><a class="nav-link" href="#">Portfolio</a></li>
@@ -511,7 +516,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer none">
       <div class="container">
         <div class="footer-content">
           <div class="footer-description">
@@ -691,5 +696,84 @@
         </form>
       </div>
     </div>
+    <!-- #region mobile-menu -->
+    <div class="mobile-menu">
+      <button class="mobile-close-btn" type="button">
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-nav-list">
+        <li><a class="mobile-nav-link mobile-studio" href="#">Studio</a></li>
+        <li><a class="mobile-nav-link" href="#">Portfolio</a></li>
+        <li><a class="mobile-nav-link" href="#">Contacts</a></li>
+      </ul>
+
+      <ul class="mobile-link-list">
+        <li>
+          <a class="mobile-contact-tel" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li>
+          <a class="mobile-contact-email" href="mailto:info@devstudio.com"
+            >info@devstudio.com
+          </a>
+        </li>
+      </ul>
+      <div class="mobile-social">
+        <ul class="mobile-social-links">
+          <li>
+            <a
+              class="social-link"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- #endregion -->
   </body>
 </html>
