@@ -216,7 +216,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .logo {
-    padding: 24px 0 24px 16px;
+    padding: 24px 0;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -280,7 +280,7 @@ img {
   .contact-list ul {
     flex-direction: column;
     gap: 12px;
-    margin: 16px 16px 16px auto;
+    margin: 16px 16px 16px 0;
     font-style: normal;
   }
 }
@@ -595,6 +595,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  font-weight: 500;
 }
 @media only screen and (min-width: 1158px) {
   .item-text {
@@ -861,7 +862,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
-    margin-left: 92px;
+    justify-content: center;
   }
 }
 @media only screen and (min-width: 1158px) {
