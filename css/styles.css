@@ -280,7 +280,7 @@ img {
   .contact-list ul {
     flex-direction: column;
     gap: 12px;
-    margin: 16px 16px 16px 0;
+    /* margin: 16px 16px 16px 0; */
     font-style: normal;
   }
 }
@@ -494,6 +494,7 @@ img {
     justify-content: center;
     padding-bottom: 120px;
     padding-top: 120px;
+    flex-basis: calc(100%-72) / 4;
   }
 }
 .features-item {
@@ -1347,7 +1348,7 @@ body:has(.backdrop.is-open) {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 16px;
+  /* margin: 16px; */
   margin-left: auto;
 }
 .burger-icn {
